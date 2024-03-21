@@ -33,5 +33,5 @@ async function blogControl(post) {
   }
 }
 
-blogControl({ name: "Blog 4", id: 4 });
-blogControl({ name: "Blog 5" }); // Error: Post couldn't added
+blogControl({ name: "Blog 4", id: 4 }); // Post added successfully.
+blogControl({ name: "Blog 5" }); // Error: Invalid post data.
