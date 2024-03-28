@@ -12,10 +12,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "ejs": "^3.1.9",
     "express": "^4.19.2"
   },
   "devDependencies": {
-    "prettier": "3.2.5",
-    "nodemon": "^3.1.0"
+    "nodemon": "^3.1.0",
+    "prettier": "3.2.5"
   }
 }
